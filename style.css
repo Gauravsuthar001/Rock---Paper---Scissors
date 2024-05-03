@@ -151,3 +151,17 @@ body {
 .hidden {
   display: none;
 }
+@media only screen and (max-width: 600px) {
+  body {
+    overflow: hidden;
+  }
+  .mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .main {
+    display: none;
+  }
+}
