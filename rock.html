@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="header"><h4>ROCK PAPER SCISSORS</h4></div>
+
+      <div class="interface">
+        <div class="user">
+          <div class="head"><h4>USER</h4></div>
+          <div class="rock-paper-scissor">
+            <div class="rock btn">Rock</div>
+            <div class="paper btn">Paper</div>
+            <div class="scissor btn">Scissor</div>
+          </div>
+          <div class="user-score score">
+            Score : <span class="real-score">0</span>
+          </div>
+        </div>
+        <div class="computer">
+          <div class="head"><h4>COMPUTER</h4></div>
+          <div class="rock-paper-scissor comp"></div>
+          <div class="user-score score">
+            Score : <span class="comp-score">0</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="winner">
+        <h4 class="win" style="animation: fadeInUp 0.4s"></h4>
+      </div>
+    </div>
+    <div class="overlay hidden"></div>
+    <div class="win-modal hidden">
+      <h4 class="who-win">COMPUTER WIN</h4>
+      <span class="better">Better Luck Next Time !</span>
+      <button class="again">Play Again</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
