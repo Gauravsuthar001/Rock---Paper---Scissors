@@ -151,9 +151,6 @@ body {
 .hidden {
   display: none;
 }
-.main{
-  display:none;
-}
 @media only screen and (max-width: 600px) {
   body {
     overflow: hidden;
